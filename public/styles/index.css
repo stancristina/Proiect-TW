@@ -1,0 +1,325 @@
+body {
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#upper-bar {
+    background-color: #003366;
+    color: white;
+    height: 6vh;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Caviar Dreams';
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    animation: example 5s infinite;
+}
+
+#upper-bar>h5 {
+    margin-top: 9px;
+    font-family: 'Caviar Dreams';
+    letter-spacing: 3px;
+}
+
+h5 {
+    font-weight: normal;
+    font-family: 'Caviar Dreams';
+}
+
+@keyframes example {
+    0% {
+        background-color: #003366;
+      }
+      100% {
+        background-color:#00CCFF;
+      }
+  }
+
+#logo-bar {
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Great Vibes';
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-left: 140px;
+}
+
+#logo-bar>h2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    letter-spacing: 7px;
+    font-weight: bolder;
+    font-family: 'Great Vibes';
+}
+
+#logo-bar>h3 {
+    margin-top: 0px;
+    letter-spacing: 6px;
+    font-weight: bolder;
+    font-family: 'Great Vibes';
+}
+
+#menu-bar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caviar Dreams';
+}
+
+#menu-buttons-left {
+    display: flex;
+    vertical-align: middle;
+    font-family: 'Caviar Dreams';
+    color: black;
+    letter-spacing: 2px;
+    font-size: 11px;
+    width: 33%;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-bottom: 5px;
+    color: black;
+    padding-left: 3px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.button img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
+    right: 2%;
+    top: 30%;
+}
+
+.dropdown {
+    font-family: 'Caviar Dreams';
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #003366;
+    height: 30px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 10px;
+    font-family: 'Caviar Dreams';
+    letter-spacing: 2px;
+    bottom: 0px;
+    margin-top: 20px;
+}
+
+#left-footer {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    padding: 2px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Caviar Dreams';
+}
+
+#left-footer:hover {
+    text-decoration: underline;
+}
+
+#right-footer {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    padding: 2px;
+    letter-spacing: 1px;
+    font-family: 'Caviar Dreams';
+}
+
+#menuNavigation {
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-family: 'Caviar Dreams';
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    min-width: 150px;
+}
+
+.level {
+    display: inline-block;
+    font-family: 'Caviar Dreams';
+}
+
+.level0 {
+    display: none;
+}
+
+.level:hover>.level0 {
+    display: block;
+}
+
+.navv {
+    display: inline-flex;
+    letter-spacing: 2px;
+}
+
+.level :hover {
+    text-decoration: underline;
+}
+
+.indexContent {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h5 {
+    font-family: 'Caviar Dreams';
+    font-weight: bold;
+}
+
+.indexFirstLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 65px;
+}
+
+#indexContentLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+    align-items: flex-start;
+    padding: 2px;
+}
+
+.indexContentRight {
+    padding: 0 30px;
+    font-family: 'Caviar Dreams';
+    ;
+}
+
+.indexContentRight h5 {
+    font-size: 17px;
+}
+
+.indexContentRight .text {
+    font-size: 15px;
+}
+
+.imageContent {
+    display: inline-flex;
+    flex-direction: row;
+    max-width: 400px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.item img {
+    max-width: 80%;
+    padding-left: 55px;
+}
+
+.item {
+    display: inline-flex;
+    max-width: 400px;
+    flex-direction: row;
+    width: 29%;
+}
+
+#menu-buttons-right a {
+    margin-right: 30px;
+}
+
+ @media only screen and (max-width: 600px){
+    .content{
+      padding: 0px;
+      background-color: red; 
+    }    
+    
+    #logo-bar {
+        padding-left: 20px;
+    }
+
+    .indexContentRight {
+        text-align: center;
+    }
+
+
+    h5 {
+        font-size: 15px;
+    }
+
+    .indexFirstLine {
+        flex-direction: column;
+    }
+
+    .HappyHeartImg {
+        width: 75%;
+    }
+
+    #indexContentLeft {
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 601px){
+  .content {
+      border: 1px solid black;
+    }    
+}
+
+@media only screen and (min-width: 950px) {
+    .content {
+      border: 1px solid black;
+    }
+
+    #menu-buttons-left {
+        flex-direction: column;
+        
+    }
+
+    #menu-buttons-left .button {
+        text-align: left;
+        padding-left: 17%;
+    }
+
+    #menu-buttons-right {
+        flex-direction: column;
+        
+    }
+
+    #menu-buttons-right a {
+        text-align: right;
+    }
+
+} 

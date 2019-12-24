@@ -1,0 +1,54 @@
+.partialLineItem {
+    width: 100%;
+    border-color: #e2e2e2;
+}
+
+.item1 {
+    font-family: 'Caviar Dreams';
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #062945;
+}
+
+#items {
+    max-width: 90%;
+    justify-content: center;
+    margin: 10%;
+    margin-bottom: 0;
+}
+
+#FAQ {
+    font-family: 'Caviar Dreams';
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0 auto;
+}
+
+.section {
+    max-width: 100%;
+}
+
+#FAQItem {
+    margin-top: 10px;
+}
+
+a:hover {
+    color: black;
+}
+
+.item1 p {
+    /* padding-top: 0; */
+    text-align: center;
+    font-family: 'Caviar Dreams';
+    font-weight: bolder;
+}
+
+.item1 span {
+    font-family: 'Caviar Dreams';
+    font-size: 15px;
+    text-align: center;
+}
