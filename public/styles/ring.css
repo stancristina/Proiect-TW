@@ -1,0 +1,27 @@
+#ring_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.product_item {
+    text-align: left;
+    width: 250px;
+    margin: 10px;
+}
+
+.product_item ul {
+    margin-left: 0px;
+}
+
+.product_item img {
+    margin-left: 25px;
+}
+
+#new_product {
+    margin-left: 5%;
+    float: left;
+}

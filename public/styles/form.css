@@ -1,0 +1,94 @@
+#main{
+
+    margin:0 auto;
+    font-family:'Ubuntu',sans-serif;
+    text-align: center;
+}
+
+#formSample{
+
+    margin-top:20px;
+}
+
+.subtitleText {
+
+    text-align: center;
+    font-size: 40px;
+}
+
+.formInput{
+
+    flex-direction: column;
+    padding-bottom: 30px;
+    position: relative;
+    width: 270px;
+    padding: 2px;
+    display: flex;
+    margin: 5px;
+    margin-left: 250px;
+}
+
+.formLabel {
+
+    font-size: 20px;
+    margin-left: 250px;
+}
+
+.formGenderInput {
+   
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.formGenderLabel {
+
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.formRInput {
+
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.formRLabel {
+    
+    font-size: 20px;
+}
+
+#message {
+    font-size: 20px;
+    margin-left: 250px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.formRatingInput {
+
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+
+.formRatingLabel {
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.invalidInput {
+
+    border-color: red;
+}
+
+.errorMessage {
+    color: red;
+    margin-left: 250px;
+}
+
+#submit_button {
+    margin-top: 15px;
+    margin-left: 250px;
+    font-size: 20px;
+}
